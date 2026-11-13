@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismael Muñoz | Portafolio Profesional</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            color: #666666;
+        }
+
+        @media (min-width: 600px) {
+            .contact-info {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ismael Muñoz Madrigal</h1>
+        <p>Soporte Operativo, Asistencia Administrativa y Gestión de Procesos</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Profesional enfocado en la excelencia operativa, la coordinación de agendas, el soporte administrativo y la atención al cliente de alta calidad. Capacidad demostrada para optimizar flujos de trabajo y gestionar procesos con precisión.</p>
+        </section>
+
+        <section>
+            <h2>Áreas de Experiencia</h2>
+            <ul>
+                <li>Gestión de procesos administrativos y control de documentación.</li>
+                <li>Atención al cliente, resolución de incidencias y soporte operativo.</li>
+                <li>Coordinación de agendas, logística y control de inventarios.</li>
+                <li>Dominio de herramientas de productividad (Google Workspace, Trello, SAP ERP, Excel).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <span>📍 Barrio Escalante, San José, Costa Rica</span>
+                <span>📞 +506 6252-0894</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ismael Muñoz Madrigal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
